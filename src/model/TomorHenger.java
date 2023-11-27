@@ -18,9 +18,14 @@ public class TomorHenger extends Henger{
     public double getFajsuly() {
         return fajsuly;
     }
+    
+    public double terfogat(double r, double m){
+         return ((r*r)*m)*3.14; 
+    }
+    
     public double suly(){
         
-        return 0;
+       return 0;
         
     }
 
