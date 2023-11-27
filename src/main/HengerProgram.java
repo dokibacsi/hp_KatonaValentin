@@ -38,12 +38,11 @@ public class HengerProgram {
     }
     private List lista(){
         
-        hengerek = new Henger[5];
+        hengerek = new Henger[4];
         hengerek[0] = new TomorHenger(1, 1);
-        hengerek[1] = new TomorHenger(2, 4);
-        hengerek[2] = new Cso(2, 4, 3);
-        hengerek[3] = new Cso(1, 1, 2);
-        hengerek[4] = new Cso(1, 2, 2);
+        hengerek[1] = new TomorHenger(1, 1);
+        hengerek[2] = new Cso(1, 1, 0.5);
+        hengerek[3] = new Cso(1, 1, 0.1);
         
         for (Henger hnger : hengerek) {
             System.out.println(hnger);
