@@ -20,9 +20,10 @@ public abstract class Henger {
     public double getMagassag() {
         return magassag;
     }
-    public double terfogat(){
+    
+    public double terfogat(double r, double m){
         
-        return 0;
+        return ((r*r)*m)*3.14; 
         
     }
 
@@ -30,5 +31,7 @@ public abstract class Henger {
     public String toString() {
         return "Henger{" + "hengerDarab=" + hengerDarab + ", sugar=" + sugar + ", magassag=" + magassag + '}';
     }
+
+    
     
 }
