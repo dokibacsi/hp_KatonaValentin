@@ -28,6 +28,10 @@ public class HengerProgram {
         return null;
         
     }
+    
+    private double terfogatSzamitas(double r, double m){
+        return ((r*r)*m)*3.14; 
+    }
     public void run(){
         
     }
